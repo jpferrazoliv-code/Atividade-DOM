@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(18, 88, 18);
+    color:antiquewhite;
+}
+
+header{
+    text-align: center; /* Alinhar o título ao centro */
+}
+
+main{
+    background-color:rgb(255, 255, 255);
+    color:black;
+    margin: 25px;   /* Afastar main do header */
+    margin-left: auto;  /* centralizar */
+    margin-right: auto; /* centralizar */
+    width: 450px;   /* Largura */
+    height: 600px;  /* Altura */
+    border-radius: 15px;    /* Arredondar as bordas do main */
+    padding: 15px;  /* Afastar o input da borda do main */
+    text-align: center; /* centralizar o input */
+}
+
+#caixa_de_texto{
+    width: 400px;
+    height: 250px;
+}
+#calcular_media{
+    margin: 5px;    /* Afastar botão da caixa_de_texto */
+    margin-right: 305px;    /* Puxar o botão para a esquerda */
+}
+#resultado{
+    margin-right: 330px;    /* Puxar o resultado para a esquerda */
+}
